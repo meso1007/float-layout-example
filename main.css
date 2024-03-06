@@ -1,0 +1,137 @@
+/*Universal style rules*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header & Navigation Sections*/
+body nav {
+    padding: 16px;
+    background-color: rgb(2, 84, 2);
+    color: white;
+}
+
+header {
+    display: inline-block;
+}
+
+nav img {
+    background-color: white;
+    max-width: 60px;
+    vertical-align: middle;
+}
+
+nav ul {
+    width: 87%;
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 12px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+/*Page Content and article styling*/
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+main img {
+    margin: 16px;
+    border: solid 3px #333;
+    max-width: 320px;
+}
+
+.both-pictures1 img {
+   float: left;
+}
+
+.both-pictures2 img {
+        float: right;
+ }
+
+.textbox {
+    margin: 16px;
+    padding: 16px;
+    border: solid 1px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.textbox-both {
+    margin: 16px;
+    padding: 16px;
+    border: solid 1px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    clear: both;
+}
+
+.post-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.post-info {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.post-paragraph {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.middle-paragraph {
+    padding-bottom: 40px;
+}
+
+.last-paragraph {
+    margin-bottom: 24px;
+}
+
+/*Footer Section*/
+footer {
+    padding: 16px;
+    background-color: rgb(2, 84, 2);
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+#footer-list {
+    padding-top: 10;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+}
